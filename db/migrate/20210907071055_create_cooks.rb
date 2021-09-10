@@ -1,6 +1,6 @@
-class CreateBooks < ActiveRecord::Migration[5.2]
+class CreateCooks < ActiveRecord::Migration[5.2]
   def change
-    create_table :books do |t|
+    create_table :cooks do |t|
       t.string :name
       t.text :body
       t.integer :user_id
